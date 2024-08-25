@@ -18,16 +18,16 @@
 # Starred meessages - retrieves users starred messages
 # Leave chat and Log out functionalities
 
-## sign up           sign in page
+## sign up   --- sign in page
 ![alt text](m1.PNG) ![alt text](m2.PNG) 
 
-## Home screen       Chat info screen
+## Home screen   --- Chat info screen
 ![alt text](m3.PNG) ![alt text](m4.PNG) 
 
-## chat screen       user info screen
+## chat screen  ---  user info screen
 ![alt text](m5.PNG) ![alt text](m6.PNG) 
 
-## searchUesr screen  create group screen
+## searchUesr screen --- create group screen
 ![alt text](m7.PNG) ![alt text](m8.PNG)
 
 ## image upload 
