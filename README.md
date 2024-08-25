@@ -1,4 +1,4 @@
-# Messenger Clone
+# Messenger App
 
 # Video demo link - https://drive.google.com/file/d/18YcXh2I-FmmeZZcCqIH3dny46lx4dIxX/view?usp=drive_link
 
