@@ -19,19 +19,20 @@
 # Leave chat and Log out functionalities
 
 ## sign up   --- sign in page
-![alt text](m1.PNG) ![alt text](m2.PNG)
+![alt text](assets/m1.PNG) ![alt text](assets/m2.PNG)
 
 ## Home screen   --- Chat info screen
-![alt text](m3.PNG) ![alt text](m4.PNG) 
+![alt text](assets/m3.PNG) ![alt text](assets/m4.PNG) 
 
 ## chat screen  ---  user info screen
-![alt text](m5.PNG) ![alt text](m6.PNG) 
+![alt text](assets/m5.PNG) ![alt text](assets/m6.PNG) 
 
 ## searchUesr screen --- create group screen
-![alt text](m7.PNG) ![alt text](m8.PNG)
+![alt text](assets/m7.PNG) ![alt text](assets/m8.PNG)
 
 ## image upload 
-![alt text](image-1.png)
+![alt text](assets/image-1.png)
+
 
 
 
