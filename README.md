@@ -18,5 +18,7 @@
 # Starred meessages - retrieves users starred messages
 # Leave chat and Log out functionalities
 
-![alt text](image.png)
-
+![alt text](m8.PNG) ![alt text](m1.PNG) 
+![alt text](m2.PNG) ![alt text](m3.PNG) 
+![alt text](m4.PNG) ![alt text](m5.PNG) 
+![alt text](m6.PNG) ![alt text](m7.PNG)
