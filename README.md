@@ -18,4 +18,5 @@
 # Starred meessages - retrieves users starred messages
 # Leave chat and Log out functionalities
 
+![alt text](image.png)
 
