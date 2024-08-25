@@ -12,10 +12,12 @@ let timer;
 export const signUp = (firstName, lastName, email, password) => {
     return async dispatch => {
         const app = getFirebaseApp();
+        console.log(app)
         const auth = getAuth(app);
 
         try {
             const result = await createUserWithEmailAndPassword(auth, email, password);
+            console.log(result);
             const { uid, stsTokenManager } = result.user;
             const { accessToken, expirationTime } = stsTokenManager;
 
@@ -27,7 +29,7 @@ export const signUp = (firstName, lastName, email, password) => {
 
             dispatch(authenticate({ token: accessToken, userData }));
             saveDataToStorage(accessToken, uid, expiryDate);
-            await storePushToken(userData);
+            await storePushToken(userData); 
 
             timer = setTimeout(() => {
                 dispatch(userLogout(userData));

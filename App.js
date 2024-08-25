@@ -8,7 +8,7 @@ import AppNavigator from './navigation/AppNavigator';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 import { MenuProvider } from 'react-native-popup-menu';
-import AsyncStorage from '@react-native-async-storage/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 LogBox.ignoreLogs(['AsyncStorage has been extracted']);
 // AsyncStorage.clear();

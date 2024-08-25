@@ -162,7 +162,7 @@ const MainNavigator = (props) => {
     onValue(userChatsRef, (querySnapshot) => {
       const chatIdsData = querySnapshot.val() || {};
       const chatIds = Object.values(chatIdsData);
-
+      console.log(chatIds)
       const chatsData = {};
       let chatsFoundCount = 0;
 

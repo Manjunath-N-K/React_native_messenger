@@ -5,6 +5,7 @@ import { addUserChat, deleteUserChat, getUserChats } from "./userActions";
 
 export const createChat = async (loggedInUserId, chatData) => {
 
+    console.log(loggedInUserId,chatData,'cht action')
     const newChatData = {
         ...chatData,
         createdBy: loggedInUserId,

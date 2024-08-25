@@ -66,6 +66,8 @@ const ChatListScreen = props => {
                 }
             }
         }
+
+        // console.log(navigationProps,'chat list screen')
         
         
 

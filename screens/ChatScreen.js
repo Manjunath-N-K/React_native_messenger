@@ -36,6 +36,7 @@ const ChatScreen = (props) => {
   const [replyingTo, setReplyingTo] = useState();
   const [tempImageUri, setTempImageUri] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  // console.log(props,'check',props)
 
   const flatList = useRef();
 
@@ -73,7 +74,7 @@ const ChatScreen = (props) => {
 
   useEffect(() => {
     if (!chatData) return;
-    
+    // console.log(chatData,'chatData')
     props.navigation.setOptions({
       headerTitle: chatData.chatName ?? getChatTitleFromName(),
       headerRight: () => {
@@ -98,8 +99,10 @@ const ChatScreen = (props) => {
 
     try {
       let id = chatId;
+      // console.log(id,'chat screen',props.route.params)
       if (!id) {
         // No chat Id. Create the chat
+        props.route.params.newChatData.chatName = chatData.chatName ?? getChatTitleFromName()
         id = await createChat(userData.userId, props.route.params.newChatData);
         setChatId(id);
       }
@@ -146,6 +149,7 @@ const ChatScreen = (props) => {
       let id = chatId;
       if (!id) {
         // No chat Id. Create the chat
+        props.route.params.newChatData.chatName = chatData.chatName ?? getChatTitleFromName()
         id = await createChat(userData.userId, props.route.params.newChatData);
         setChatId(id);
       }
