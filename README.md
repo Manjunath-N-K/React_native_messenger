@@ -19,7 +19,7 @@
 # Leave chat and Log out functionalities
 
 ## sign up   --- sign in page
-![alt text](m1.PNG) ![alt text](m2.PNG) 
+E:\Users\Code\React Native\Messenger\assets\icon.png assets/m2.PNG
 
 ## Home screen   --- Chat info screen
 ![alt text](m3.PNG) ![alt text](m4.PNG) 
