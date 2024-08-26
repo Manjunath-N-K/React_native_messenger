@@ -2,8 +2,8 @@
 
 # Video demo link - https://drive.google.com/file/d/18YcXh2I-FmmeZZcCqIH3dny46lx4dIxX/view?usp=drive_link
 
-## Teh stack
-## React native and firebase for database 
+## Tech stack
+## React native and firebase for backend
 
 
 ### Features
