@@ -27,7 +27,7 @@
 ## chat screen  ---  user info screen
 ![alt text](assets/m5.PNG) ![alt text](assets/m6.PNG) 
 
-## searchUesr screen --- create group screen
+## searchUser screen --- create group screen
 ![alt text](assets/m7.PNG) ![alt text](assets/m8.PNG)
 
 ## image upload 
